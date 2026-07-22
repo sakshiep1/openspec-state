@@ -1,10 +1,10 @@
 {
-  "exported_at": "2026-07-22T12:12:05.976652+00:00",
+  "exported_at": "2026-07-22T12:36:03.833418+00:00",
   "operator_name": "must-gather-operator",
   "jira_epic_link": "",
   "jira_epic_name": "",
   "jira_task_name": "Enhancement proposal for integration with must-gather-clean-test",
-  "Jira_task_link": "https://redhat.atlassian.net/browse/MG-325",
+  "Jira_task_link": "https://issues.redhat.com/browse/MG-325",
   "run": {
     "id": "87778537-a38b-429a-8702-a6f4164d0a77",
     "change_name": "MG-325 \u2014 mg-325",
@@ -13,8 +13,8 @@
     "status": "running",
     "started_at": "2026-07-22T11:40:26.980522+00:00",
     "completed_at": null,
-    "total_tokens_in": 2321,
-    "total_tokens_out": 4871
+    "total_tokens_in": 2999,
+    "total_tokens_out": 6207
   },
   "phases": [
     {
@@ -26,10 +26,10 @@
       "status": "running",
       "started_at": "2026-07-22T11:45:59.307589+00:00",
       "completed_at": null,
-      "tokens_in": 2321,
-      "tokens_out": 4871,
-      "quality_score": 92.0,
-      "quality_label": "NEEDS_REVISION_accepted",
+      "tokens_in": 2999,
+      "tokens_out": 6207,
+      "quality_score": 34.0,
+      "quality_label": "NEEDS_REVISION",
       "iteration_count": 1,
       "duration_s": 60.0,
       "processing_time_s": 185.6
@@ -156,14 +156,54 @@
       "event_type": "state_machine",
       "message": "Artifact 'validation' completed with status: passed",
       "metadata_json": null
+    },
+    {
+      "id": "f3c613b0-7cf6-439e-93ed-c79112be70d6",
+      "ts": "2026-07-22T12:35:21.259038+00:00",
+      "run_id": "87778537-a38b-429a-8702-a6f4164d0a77",
+      "task_id": null,
+      "agent_id": "Pipeline",
+      "event_type": "state_machine",
+      "message": "Artifact 'validation' created \u2014 awaiting eval gate",
+      "metadata_json": null
+    },
+    {
+      "id": "1ecb672a-355a-4d7d-91f8-d63adfaa628c",
+      "ts": "2026-07-22T12:35:29.625565+00:00",
+      "run_id": "87778537-a38b-429a-8702-a6f4164d0a77",
+      "task_id": null,
+      "agent_id": "Pipeline",
+      "event_type": "state_machine",
+      "message": "Artifact 'validation' ready for approval (eval score: 34.0%) \u2014 waiting for human decision",
+      "metadata_json": null
+    },
+    {
+      "id": "4ef68776-5463-458a-aca6-da7155175455",
+      "ts": "2026-07-22T12:36:03.827740+00:00",
+      "run_id": "87778537-a38b-429a-8702-a6f4164d0a77",
+      "task_id": null,
+      "agent_id": "Pipeline",
+      "event_type": "state_machine",
+      "message": "Human approved artifact 'validation'",
+      "metadata_json": null
+    },
+    {
+      "id": "ecc64556-ad68-448f-9498-c84bcdccc56c",
+      "ts": "2026-07-22T12:36:03.827926+00:00",
+      "run_id": "87778537-a38b-429a-8702-a6f4164d0a77",
+      "task_id": null,
+      "agent_id": "Pipeline",
+      "event_type": "state_machine",
+      "message": "Artifact 'validation' completed with status: passed",
+      "metadata_json": null
     }
   ],
   "global_health": {
-    "total_tokens_consumed": 7192,
-    "estimated_cost_usd": 0.08,
-    "cumulative_wall_time_s": 1899.0,
+    "total_tokens_consumed": 9206,
+    "estimated_cost_usd": 0.1021,
+    "cumulative_wall_time_s": 3336.9,
     "agent_processing_time_s": 185.6,
-    "compliance_index": 92.0,
+    "compliance_index": 34.0,
     "gate_passing_rate": 0.0,
     "human_rejection_rate": 0.0,
     "total_refinement_iterations": 0,
