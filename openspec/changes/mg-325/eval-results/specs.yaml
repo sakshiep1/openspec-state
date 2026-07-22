@@ -1,0 +1,13 @@
+artifact_id: specs
+artifact_path: openspec/changes/mg-325/specs.md
+stage: specs
+stage_eval_file: null
+gate: skip
+scored_at: "2026-07-22T12:40:00+05:30"
+overall_score: null
+overall_pass: null
+refinement_applied: false
+cases: []
+notes: >
+  Specs gate is skip (user approval only). Quality assessed via gap analysis
+  in evaluation report against validation.json findings and spec template rubric.
