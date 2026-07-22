@@ -1,0 +1,12 @@
+epic_owner: ""
+phase_owners:
+  spec_understanding:
+    owner: spatidar@redhat.com
+  repo_assessment:
+    owner: skini@redhat.com
+  arch_planning:
+    owner: cdate@redhat.com
+  subtask_creation:
+    owner: spatidar@redhat.com
+  code_generation:
+    owner: cdate@redhat.com
