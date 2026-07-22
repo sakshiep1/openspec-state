@@ -1,0 +1,192 @@
+{
+  "exported_at": "2026-07-22T12:12:05.976652+00:00",
+  "operator_name": "must-gather-operator",
+  "jira_epic_link": "",
+  "jira_epic_name": "",
+  "jira_task_name": "Enhancement proposal for integration with must-gather-clean-test",
+  "Jira_task_link": "https://redhat.atlassian.net/browse/MG-325",
+  "run": {
+    "id": "87778537-a38b-429a-8702-a6f4164d0a77",
+    "change_name": "MG-325 \u2014 mg-325",
+    "jira_key": "MG-325",
+    "branch": "feature/mg-325",
+    "status": "running",
+    "started_at": "2026-07-22T11:40:26.980522+00:00",
+    "completed_at": null,
+    "total_tokens_in": 2321,
+    "total_tokens_out": 4871
+  },
+  "phases": [
+    {
+      "id": "d7d909ee-b787-4f47-bc05-f50582790385",
+      "run_id": "87778537-a38b-429a-8702-a6f4164d0a77",
+      "phase_number": 1,
+      "phase_name": "spec_understanding",
+      "model_id": "",
+      "status": "running",
+      "started_at": "2026-07-22T11:45:59.307589+00:00",
+      "completed_at": null,
+      "tokens_in": 2321,
+      "tokens_out": 4871,
+      "quality_score": 92.0,
+      "quality_label": "NEEDS_REVISION_accepted",
+      "iteration_count": 1,
+      "duration_s": 60.0,
+      "processing_time_s": 185.6
+    }
+  ],
+  "tasks": [],
+  "events": [
+    {
+      "id": "168dd1f4-fe7d-4a6a-8f8d-0b8467ce2f2a",
+      "ts": "2026-07-22T11:46:35.951619+00:00",
+      "run_id": "87778537-a38b-429a-8702-a6f4164d0a77",
+      "task_id": null,
+      "agent_id": "Pipeline",
+      "event_type": "state_machine",
+      "message": "Artifact 'validation' created \u2014 awaiting eval gate",
+      "metadata_json": null
+    },
+    {
+      "id": "70bdee70-4f1a-475a-b553-97ccfbc40c57",
+      "ts": "2026-07-22T11:46:36.040774+00:00",
+      "run_id": "87778537-a38b-429a-8702-a6f4164d0a77",
+      "task_id": null,
+      "agent_id": "Pipeline",
+      "event_type": "state_machine",
+      "message": "Artifact 'validation' ready for approval (eval score: 36.0%) \u2014 waiting for human decision",
+      "metadata_json": null
+    },
+    {
+      "id": "a9c640f5-8eb7-4c18-bd8a-a70fdab5131e",
+      "ts": "2026-07-22T11:47:24.746825+00:00",
+      "run_id": "87778537-a38b-429a-8702-a6f4164d0a77",
+      "task_id": null,
+      "agent_id": "Pipeline",
+      "event_type": "state_machine",
+      "message": "Human approved artifact 'validation'",
+      "metadata_json": null
+    },
+    {
+      "id": "466b3e8d-4d27-432e-93bc-9f9a6bba604d",
+      "ts": "2026-07-22T11:47:24.747001+00:00",
+      "run_id": "87778537-a38b-429a-8702-a6f4164d0a77",
+      "task_id": null,
+      "agent_id": "Pipeline",
+      "event_type": "state_machine",
+      "message": "Artifact 'validation' completed with status: passed",
+      "metadata_json": null
+    },
+    {
+      "id": "cf7a9407-13bd-4f86-a2af-0d4330b370be",
+      "ts": "2026-07-22T11:48:29.147001+00:00",
+      "run_id": "87778537-a38b-429a-8702-a6f4164d0a77",
+      "task_id": null,
+      "agent_id": "Pipeline",
+      "event_type": "state_machine",
+      "message": "Artifact 'specs' created \u2014 awaiting eval gate",
+      "metadata_json": null
+    },
+    {
+      "id": "514bde72-64cb-42e0-9a42-f358fae793bd",
+      "ts": "2026-07-22T11:48:29.222891+00:00",
+      "run_id": "87778537-a38b-429a-8702-a6f4164d0a77",
+      "task_id": null,
+      "agent_id": "Pipeline",
+      "event_type": "state_machine",
+      "message": "Artifact 'specs' ready for approval \u2014 waiting for human decision",
+      "metadata_json": null
+    },
+    {
+      "id": "ca9ff217-74b1-460b-ba00-a90a80ef69f8",
+      "ts": "2026-07-22T11:49:04.931445+00:00",
+      "run_id": "87778537-a38b-429a-8702-a6f4164d0a77",
+      "task_id": null,
+      "agent_id": "Pipeline",
+      "event_type": "state_machine",
+      "message": "Human approved artifact 'specs'",
+      "metadata_json": null
+    },
+    {
+      "id": "d57d44ad-04d6-4e98-b687-4f3d534f6189",
+      "ts": "2026-07-22T11:49:04.931592+00:00",
+      "run_id": "87778537-a38b-429a-8702-a6f4164d0a77",
+      "task_id": null,
+      "agent_id": "Pipeline",
+      "event_type": "state_machine",
+      "message": "Artifact 'specs' completed with status: passed",
+      "metadata_json": null
+    },
+    {
+      "id": "44dacd2f-41a1-44ac-911d-1d07453cfdbb",
+      "ts": "2026-07-22T12:11:13.544549+00:00",
+      "run_id": "87778537-a38b-429a-8702-a6f4164d0a77",
+      "task_id": null,
+      "agent_id": "Pipeline",
+      "event_type": "state_machine",
+      "message": "Artifact 'validation' created \u2014 awaiting eval gate",
+      "metadata_json": null
+    },
+    {
+      "id": "d3afadaa-d403-4448-aade-fbd3fffb0379",
+      "ts": "2026-07-22T12:11:13.620908+00:00",
+      "run_id": "87778537-a38b-429a-8702-a6f4164d0a77",
+      "task_id": null,
+      "agent_id": "Pipeline",
+      "event_type": "state_machine",
+      "message": "Artifact 'validation' ready for approval (eval score: 92.0%) \u2014 waiting for human decision",
+      "metadata_json": null
+    },
+    {
+      "id": "b8ccdbc8-d863-4319-8f5e-5814bfdd0bb1",
+      "ts": "2026-07-22T12:12:05.969634+00:00",
+      "run_id": "87778537-a38b-429a-8702-a6f4164d0a77",
+      "task_id": null,
+      "agent_id": "Pipeline",
+      "event_type": "state_machine",
+      "message": "Human approved artifact 'validation'",
+      "metadata_json": null
+    },
+    {
+      "id": "59fd952c-dee3-443f-94af-38060540cd6a",
+      "ts": "2026-07-22T12:12:05.969835+00:00",
+      "run_id": "87778537-a38b-429a-8702-a6f4164d0a77",
+      "task_id": null,
+      "agent_id": "Pipeline",
+      "event_type": "state_machine",
+      "message": "Artifact 'validation' completed with status: passed",
+      "metadata_json": null
+    }
+  ],
+  "global_health": {
+    "total_tokens_consumed": 7192,
+    "estimated_cost_usd": 0.08,
+    "cumulative_wall_time_s": 1899.0,
+    "agent_processing_time_s": 185.6,
+    "compliance_index": 92.0,
+    "gate_passing_rate": 0.0,
+    "human_rejection_rate": 0.0,
+    "total_refinement_iterations": 0,
+    "agent_success_rate": 100.0,
+    "tasks_passed": 0,
+    "tasks_total": 0
+  },
+  "artifact_edits": {
+    "artifacts": [
+      {
+        "artifact_id": "validation",
+        "phase_name": "spec_understanding",
+        "eval_refinements": 0,
+        "feedback_rounds": 0,
+        "total_edits": 0
+      }
+    ],
+    "total_edits": 0
+  },
+  "verification_summary": {
+    "entries": [],
+    "total_verified": 0,
+    "total_passed": 0,
+    "total_failed": 0
+  }
+}
